@@ -3,17 +3,15 @@ import { AngularMaterialModule } from "../angular-material/angular-material.modu
 import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
-    declarations: [
-
-    
+  declarations: [
     UserDetailsComponent
   ],
-    imports: [
-        AngularMaterialModule
-    ],
-    exports: [
-
-    ],
+  imports: [
+    AngularMaterialModule
+  ],
+  exports: [
+    UserDetailsComponent
+  ],
 })
 export class ComponentsModule {
 
