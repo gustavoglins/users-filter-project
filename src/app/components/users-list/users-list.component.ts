@@ -11,7 +11,7 @@ export class UsersListComponent {
   displayedColumns: string[] = ['name', 'date', 'status']
   usersList: IUser[] = UsersList;
 
-  onUserSelected(user: IUser){
+  onUserSelected(user: IUser) {
     console.log('user ', user)
   }
 }
