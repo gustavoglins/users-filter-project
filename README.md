@@ -1,27 +1,21 @@
 # UsersFilterProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+This simple project was developed as part of a course, with the aim of practicing and improving skills in Angular 18 (without standalone usage).
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This system provides user management functionalities as follows:
 
-## Code scaffolding
+Search Filters: Allows users to search by name, registration date, and status. The filters include a name field, a date range selector, and a status dropdown (active/inactive), enabling more targeted searches.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+User List: Displays a list of users with details such as name, registration date, and status. The list provides quick access to the main information of each user.
 
-## Build
+User Details: By selecting a user from the list, a panel displays detailed information, including name, email, phone, address, status, role, and registration date. This allows in-depth access to specific user data.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Filter Button: A "Filter" button applies the defined filters, updating the list according to the chosen criteria.
 
-## Running unit tests
+## Preview
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Project Preview](./src/assets/project-preview.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
