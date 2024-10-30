@@ -1,6 +1,6 @@
 # UsersFilterProject
 
-This simple project was developed as part of a course, with the aim of practicing and improving skills in Angular 18 (without standalone usage).
+This simple project was developed as part of a course, with the aim of practicing and improving skills in Angular 18 (without standalone usage). It does not include an API; instead, mock data is used to simulate backend responses.
 
 ## Features
 
